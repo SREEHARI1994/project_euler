@@ -4,11 +4,12 @@ def fib(container,la,lb,n):
     r=n%tl
     #print("r is"+str(r))
     if r==1:
-        print(str(container[0])
+        print(str(container[0]))
     else:
         sub=r-1
-        start=n-sub
-        index=n-start
+        start=abs(n-sub)
+        l=len(container)
+        index=(abs(n-start))%l
         print(str(container[index]))
 
 
@@ -25,9 +26,3 @@ for i in range(q):
     container=list(a)+list(b)
     #print(container)
     fib(container,len_a,len_b,n)
-
-
-   
-    
-
-
