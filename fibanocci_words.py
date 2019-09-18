@@ -27,20 +27,6 @@ for i in range(q):
     fib(container,len_a,len_b,n)
 
 
-
-
-
-q=int(input())
-for i in range(q):
-    line=(input()).split(" ")
-    a=line[0]
-    b=line[1]
-    n=int(line[2])
-    len_a=len(a)
-    len_b=len(b)
-    fib(a,b,len_a,len_b,n)
-    
-
    
     
 
